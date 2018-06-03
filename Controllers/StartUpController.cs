@@ -49,7 +49,7 @@ namespace MentorAPI.Controllers
         [AllowAnonymous]
         public IEnumerable<StartUp> getAllFieldAndNameStartups([FromBody] JObject searchParameters) {
             if (searchParameters.Count == 0) {
-                return new StartUp().SearchDocument(new Dictionary<string, object>());
+                return new StartUp().SearchDocument(new Dictionary<string, object>()).FindAll(com => com.CompanyName != string.Empty && com.CompanyName != null);
             } else {
                 Dictionary<string, object> parameters = new Dictionary<string, object>();
                 if (searchParameters.Property("SearchInput").Value.ToString() != "n/a") {
