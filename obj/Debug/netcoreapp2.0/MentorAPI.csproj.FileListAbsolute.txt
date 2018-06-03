@@ -1,0 +1,11 @@
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\bin\Debug\netcoreapp2.0\MentorAPI.deps.json
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\bin\Debug\netcoreapp2.0\MentorAPI.runtimeconfig.json
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\bin\Debug\netcoreapp2.0\MentorAPI.runtimeconfig.dev.json
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\bin\Debug\netcoreapp2.0\MentorAPI.dll
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\bin\Debug\netcoreapp2.0\MentorAPI.pdb
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\obj\Debug\netcoreapp2.0\MentorAPI.csprojResolveAssemblyReference.cache
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\obj\Debug\netcoreapp2.0\MentorAPI.csproj.CoreCompileInputs.cache
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\obj\Debug\netcoreapp2.0\MentorAPI.AssemblyInfoInputs.cache
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\obj\Debug\netcoreapp2.0\MentorAPI.AssemblyInfo.cs
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\obj\Debug\netcoreapp2.0\MentorAPI.dll
+C:\Projects\Mentors Lab\API\MentorsLab\MentorAPI\obj\Debug\netcoreapp2.0\MentorAPI.pdb
