@@ -31,9 +31,10 @@ namespace MentorAPI.Controllers
         [HttpPost("UpdateCompanyStats")]
 
         public void UpdateCompanyStats([FromBody] JObject startup) {
+            StartUpStats ss = JsonConvert.DeserializeObject<StartUpStats>(startup.ToString());
             Dictionary<string, object> parameters = new Dictionary<string, object>
             {
-                { "Username", startup.Property("Username").Value }
+                { "Username", ss.Username }
             };
             StartUpStats stat = new StartUpStats().SearchDocument(parameters)[0];
             if(!startup.Property("View").IsNullOrEmpty())
@@ -75,15 +76,16 @@ namespace MentorAPI.Controllers
             }
             if (!startup.Property("MembersRejectedIncrease").IsNullOrEmpty())
             {
-                stat.AmountOfMembersRejected = stat.AmountOfMembersRejected++;
+                 stat.AmountOfMembersRejected++;
             }
             if (!startup.Property("MembersApprovedIncrease").IsNullOrEmpty())
             {
-                stat.AmountOfMembersApproved = stat.AmountOfMembersApproved++;
+                 stat.AmountOfMembersApproved++;
             }
             if (!startup.Property("AmountOfMembersIncrease").IsNullOrEmpty())
             {
-                stat.AmountOfMembers = stat.AmountOfMembers++;
+                Console.WriteLine("it does get into the amount increase");
+                stat.AmountOfMembers++;
             }
             
             if (!startup.Property("SocialMedia").IsNullOrEmpty())
